@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border:8px solid black;
+    margin: 2em;
+}
+.btn-container{
+    display: flex;/*by default display flex makes all
+                    the elements in the row line/ wise and here div
+                    has two chindrens also the this apply two times thats
+                    why the sencond div is in second line*/
+    justify-content: center;
+    
+    
+    }
+.red{
+    background-color:#f99b45 ;
+}
+.yellow{
+    background-color:#d95980;
+}
+.green{
+    background-color:#819ff9;
+}
+.purple{
+    background-color:#63aac0;
+}
+.flash{
+    background-color: white;
+}  
+.userflash{
+    background-color: green;
+}
+    

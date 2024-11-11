@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css"/>
+</head>
+<title>Simon says game</title>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press a button to start</h2>
+    <div class="btn-container">
+       <div class="first">
+        <div class="btn red"   type="button" id="red">1</div><!-- in css we write .btn , .red=btn is common therefore if we change in .btn class only it refelect in all below btn but if we write individual red green then the changes only refelect in that -->
+        <div class="btn yellow"  type="button" id="yellow">2</div>
+         </div>
+         <div class="second">
+        <div class="btn green"  type="button" id="green" >3</div><!--we define id just to know the userpress btn color-->
+        <div class="btn purple"  type="button" id="purple">4</div>
+         </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
